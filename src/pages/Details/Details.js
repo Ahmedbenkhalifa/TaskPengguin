@@ -22,6 +22,7 @@ const Details = () => {
   };
   useEffect(() => {
     getDetails(id);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
     <Layout title={"Details"}>

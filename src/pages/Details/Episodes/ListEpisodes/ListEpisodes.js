@@ -29,6 +29,7 @@ const ListEpisodes = ({ seasonNumber }) => {
 
   useEffect(() => {
     getEpisodeDetails();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [seasonNumber]);
   return (
     <>
